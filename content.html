@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+<canvas id="particles"></canvas>
+
+<h1 class="page-title">Physics: Exit Ticket</h1>
+<p class="page-subtitle">by: Aaram Macagaling</p>
+
+<div class="content-row">
+  <div class="card" onclick="openCard('Lesson Learnings','In Physics 2, we learned many important concepts about electricity and electric forces. These include the structure of electric charges and the roles of protons, electrons, and neutrons, as well as the behavior of positive and negative charges in electrostatics. We also studied Coulomb’s Law and how electric force depends on the amount of charge and the distance between them. In addition, we learned about electric fields, electric field lines, and how charged particles are affected by electric forces. We also discussed electric flux and Gauss’s Law, which explain how electric fields pass through surfaces. Furthermore, we learned about electric potential and electric potential energy, the work done by electric forces, and the concept of potential difference. Lastly, we studied capacitance and capacitors, how they store electric charge and energy, and how to represent them using schematic diagrams.')">
+      <div class="card-name">Lesson Learnings</div>
+  </div>
+
+    <div class="envelope" onclick="openCard('Letter Message','Dear Sir Leandro Alberto,\n\nI just want to take this moment to express my appreciation. Thank you, Sir, for not just teaching us Physics 2 but also for being a supportive and caring adviser. We truly appreciate the time, effort, and dedication you put into explaining the lessons clearly and guiding us through the activities and discussions. Your patience in answering our questions helped us understand many concepts that seemed difficult at first.\n\nI am also thankful for your encouragement and for always motivating us to try our best even when the lessons were challenging. Because of your guidance, we became more confident in asking questions and sharing our ideas. The way you explain topics step by step helps everyone follow the lesson more easily.\n\nI do not have any suggestions because you already did your best in teaching us. Thank you for your guidance, support, and patience throughout this subject. I will always remember the lessons and experiences we gained from your class.')">
+        <div class="envelope-body">
+            <div class="back-fold"></div>
+            <div class="letter">
+                <div class="letter-body"></div>
+                <div class="letter-title"></div>
+                <div class="letter-context"></div>
+                <div class="letter-stamp">
+                    <div class="letter-stamp-inner"></div>
+                </div>
+            </div>
+            <div class="top-fold"></div>
+            <div class="body"></div>
+            <div class="left-fold"></div>
+        </div>
+    </div>
+    
+
+  <div class="card" onclick="openCard('Life Learnings','Studying Physics 2 has taught me many valuable lessons. It showed me that patience and focus are important when learning difficult topics. At first, some concepts and calculations were challenging, but with practice and effort, they became easier to understand. But we also have to consider that mistakes are a part of learning and it helps us improve and become better. Practicing problem solving day by day improves our understanding on difficult equations and topics. This are the small steps we take to make the harder and bigger problems given easier to handle. By providing effort and adding focus into solving problems, it helps us to achieve a faster and better results. This continuously reminds me that learning requires persistence and critical thinking. Solving problems helps us understand complex ideas, and these skills can also help us in real-life situations.')">
+      <div class="card-name">Life Learnings</div>
+  </div>
+</div>
+
+<div class="popup" id="popup">
+  <div class="popup-box">
+      <span class="close" onclick="closePopup()">✕</span>
+      <h2 id="popupTitle"></h2>
+      <p id="popupText"></p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
